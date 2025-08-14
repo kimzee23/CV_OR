@@ -1,0 +1,304 @@
+
+<!--            <section id="Pricing" class="section-container">-->
+<!--                <div class="section-heading">-->
+<!--                    <span><i class="fa-solid fa-dollar-sign"></i> Pricing</span>-->
+<!--                    <h3>Amazing Pricing For Your Projects</h3>-->
+<!--                </div>-->
+
+<!--                <div class="plan-container">-->
+<!--                    <div class="plan-box bg-gradient">-->
+<!--                        <span class="plan-name">Basic</span>-->
+<!--                        <span class="price">$400</span>-->
+<!--                        <a href="#">Order Now</a>-->
+<!--                        <ul class="pricing-box-feature">-->
+<!--                            <li>-->
+<!--                                <i class="fa-solid fa-check"></i>-->
+<!--                                <span>Create data models in SAP PowerDesigner</span>-->
+<!--                            </li>-->
+
+<!--                            <li>-->
+<!--                                <i class="fa-solid fa-check"></i>-->
+<!--                                <span>Preparation and participation in POCs and demos</span>-->
+<!--                            </li>-->
+
+<!--                            <li>-->
+<!--                                <i class="fa-solid fa-check"></i>-->
+<!--                                <span>development and implementation of ETL pipelines</span>-->
+<!--                            </li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
+
+<!--                    <div class="plan-box bg-gradient">-->
+<!--                        <span class="plan-name">Pro</span>-->
+<!--                        <span class="price">$800</span>-->
+<!--                        <a href="#">Order Now</a>-->
+<!--                        <ul class="pricing-box-feature">-->
+<!--                            <li>-->
+<!--                                <i class="fa-solid fa-check"></i>-->
+<!--                                <span>Create data models in SAP PowerDesigner</span>-->
+<!--                            </li>-->
+
+<!--                            <li>-->
+<!--                                <i class="fa-solid fa-check"></i>-->
+<!--                                <span>Preparation and participation in POCs and demos</span>-->
+<!--                            </li>-->
+
+<!--                            <li>-->
+<!--                                <i class="fa-solid fa-check"></i>-->
+<!--                                <span>development and implementation of ETL pipelines</span>-->
+<!--                            </li>-->
+
+<!--                            <li>-->
+<!--                                <i class="fa-solid fa-check"></i>-->
+<!--                                <span>Create data models in SAP PowerDesigner</span>-->
+<!--                            </li>-->
+
+<!--                            <li>-->
+<!--                                <i class="fa-solid fa-check"></i>-->
+<!--                                <span>Preparation and participation in POCs and demos</span>-->
+<!--                            </li>-->
+
+<!--                            <li>-->
+<!--                                <i class="fa-solid fa-check"></i>-->
+<!--                                <span>development and implementation of ETL pipelines</span>-->
+<!--                            </li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
+
+<!--                    <div class="plan-box bg-gradient">-->
+<!--                        <span class="plan-name">Premium</span>-->
+<!--                        <span class="price">$1400</span>-->
+<!--                        <a href="#">Order Now</a>-->
+<!--                        <ul class="pricing-box-feature">-->
+<!--                            <li>-->
+<!--                                <i class="fa-solid fa-check"></i>-->
+<!--                                <span>Create data models in SAP PowerDesigner</span>-->
+<!--                            </li>-->
+
+<!--                            <li>-->
+<!--                                <i class="fa-solid fa-check"></i>-->
+<!--                                <span>Preparation and participation in POCs and demos</span>-->
+<!--                            </li>-->
+
+<!--                            <li>-->
+<!--                                <i class="fa-solid fa-check"></i>-->
+<!--                                <span>development and implementation of ETL pipelines</span>-->
+<!--                            </li>-->
+
+<!--                            <li>-->
+<!--                                <i class="fa-solid fa-check"></i>-->
+<!--                                <span>Create data models in SAP PowerDesigner</span>-->
+<!--                            </li>-->
+
+<!--                            <li>-->
+<!--                                <i class="fa-solid fa-check"></i>-->
+<!--                                <span>Preparation and participation in POCs and demos</span>-->
+<!--                            </li>-->
+
+<!--                            <li>-->
+<!--                                <i class="fa-solid fa-check"></i>-->
+<!--                                <span>development and implementation of ETL pipelines</span>-->
+<!--                            </li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
+
+<!--                    <div class="plan-box bg-gradient">-->
+<!--                        <span class="plan-name">Premium Plus</span>-->
+<!--                        <span class="price">$3000</span>-->
+<!--                        <a href="#">Order Now</a>-->
+<!--                        <ul class="pricing-box-feature">-->
+<!--                            <li>-->
+<!--                                <i class="fa-solid fa-check"></i>-->
+<!--                                <span>Create data models in SAP PowerDesigner</span>-->
+<!--                            </li>-->
+
+<!--                            <li>-->
+<!--                                <i class="fa-solid fa-check"></i>-->
+<!--                                <span>Preparation and participation in POCs and demos</span>-->
+<!--                            </li>-->
+
+<!--                            <li>-->
+<!--                                <i class="fa-solid fa-check"></i>-->
+<!--                                <span>development and implementation of ETL pipelines</span>-->
+<!--                            </li>-->
+
+<!--                            <li>-->
+<!--                                <i class="fa-solid fa-check"></i>-->
+<!--                                <span>Create data models in SAP PowerDesigner</span>-->
+<!--                            </li>-->
+
+<!--                            <li>-->
+<!--                                <i class="fa-solid fa-check"></i>-->
+<!--                                <span>Preparation and participation in POCs and demos</span>-->
+<!--                            </li>-->
+
+<!--                            <li>-->
+<!--                                <i class="fa-solid fa-check"></i>-->
+<!--                                <span>development and implementation of ETL pipelines</span>-->
+<!--                            </li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </section>-->
+
+
+
+
+
+//css
+.plan-container{*/
+/*    display: grid;*/
+/*    grid-template-columns: 1fr 1fr;*/
+/*    grid-gap: 20px;*/
+/*    margin-top: 40px;*/
+/*}*/
+/*.plan-box{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: flex-start;*/
+/*    padding: 30px;*/
+/*    border-radius: 20px;*/
+/*    border: 1px solid var(--border-color);*/
+/*    position: relative;*/
+/*}*/
+/*.plan-name{*/
+/*    position: absolute;*/
+/*    right: 20px;*/
+/*    top: 20px;*/
+/*    background-color: var(--main-color);*/
+/*    padding: 5px 20px;*/
+/*    border-radius: 20px;*/
+/*    text-transform: uppercase;*/
+/*    font-size: 0.8rem;*/
+/*    letter-spacing: 1px;*/
+/*    font-weight: 500;*/
+/*    color: var(--bg-color);*/
+/*}*/
+/*.plan-box .price{*/
+/*    font-size: 2.4rem;*/
+/*    color: var(--main-color);*/
+/*    font-weight: 500;*/
+/*    margin-top: 10px;*/
+/*}*/
+/*.plan-box a{*/
+/*    color: var(--text-color);*/
+/*    border: 1px solid var(--text-color);*/
+/*    padding: 10px 20px;*/
+/*    border-radius: 30px;*/
+/*    font-size: 0.9rem;*/
+/*    text-transform: uppercase;*/
+/*    margin: 10px 0px;*/
+/*    font-weight: 500;*/
+/*    letter-spacing: 1px;*/
+/*    transition: all ease 0.3s;*/
+/*}*/
+/*.plan-box a:hover{*/
+/*    color: var(--bg-color);*/
+/*    background-color: var(--text-color);*/
+/*}*/
+/*.pricing-box-feature{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    grid-gap: 30px;*/
+/*    margin: 30px 0px 20px 0px;*/
+/*}*/
+/*.pricing-box-feature li{*/
+/*    display: grid;*/
+/*    grid-template-columns: 20px 1fr;*/
+/*    align-items: flex-start;*/
+/*    grid-gap: 10px;*/
+/*}*/
+/*.pricing-box-feature li i{*/
+/*    color: var(--text-color);*/
+/*}*/
+/*.pricing-box-feature li span{*/
+/*    margin: -5px;*/
+/*    display: flex;*/
+/*    color: var(--text-color);*/
+/*    font-size: 0.9rem;*/
+/*}
+  <section id="resume" class="section-container">-->
+<!--            <div class="section-heading">-->
+<!--                <span><i class="fa-solid fa-file-lines"></i> Resume</span>-->
+<!--                <h3>My Education & Experience</h3>-->
+<!--            </div>-->
+
+<!--            <div class="resume-container">-->
+<!--                <div class="resume-column">-->
+<!--                    <h4 class="resume-title"><i class="fa-solid fa-graduation-cap"></i> Education</h4>-->
+
+<!--                    <div class="resume-item">-->
+<!--                        <div class="resume-item-header">-->
+<!--                            <h5>BSc in Computer Science</h5>-->
+<!--                            <span>2020 - 2024</span>-->
+<!--                        </div>-->
+<!--                        <div class="resume-item-subheader">-->
+<!--                            <span>University of Lagos, Nigeria</span>-->
+<!--                        </div>-->
+<!--                        <p>-->
+<!--                            Specialized in Software Engineering and Artificial Intelligence. Graduated with First Class Honors.-->
+<!--                        </p>-->
+<!--                    </div>-->
+
+<!--                    <div class="resume-item">-->
+<!--                        <div class="resume-item-header">-->
+<!--                            <h5>Web Development Bootcamp</h5>-->
+<!--                            <span>2022</span>-->
+<!--                        </div>-->
+<!--                        <div class="resume-item-subheader">-->
+<!--                            <span>Andela Learning Community</span>-->
+<!--                        </div>-->
+<!--                        <p>-->
+<!--                            Intensive 6-month program covering full-stack JavaScript development with Node.js, React, and MongoDB.-->
+<!--                        </p>-->
+<!--                    </div>-->
+<!--                </div>-->
+
+<!--                <div class="resume-column">-->
+<!--                    <h4 class="resume-title"><i class="fa-solid fa-briefcase"></i> Experience</h4>-->
+
+<!--                    <div class="resume-item">-->
+<!--                        <div class="resume-item-header">-->
+<!--                            <h5>Junior Software Developer</h5>-->
+<!--                            <span>2023 - Present</span>-->
+<!--                        </div>-->
+<!--                        <div class="resume-item-subheader">-->
+<!--                            <span>TechSolutions Inc., Lagos</span>-->
+<!--                        </div>-->
+<!--                        <p>-->
+<!--                            Develop and maintain web applications using React and Django. Collaborate with cross-functional teams to design and implement new features.-->
+<!--                        </p>-->
+<!--                    </div>-->
+
+<!--                    <div class="resume-item">-->
+<!--                        <div class="resume-item-header">-->
+<!--                            <h5>Freelance Developer</h5>-->
+<!--                            <span>2021 - 2023</span>-->
+<!--                        </div>-->
+<!--                        <div class="resume-item-subheader">-->
+<!--                            <span>Self-Employed</span>-->
+<!--                        </div>-->
+<!--                        <p>-->
+<!--                            Built custom websites and web applications for clients across various industries. Managed projects from conception to deployment.-->
+<!--                        </p>-->
+<!--                    </div>-->
+
+<!--                    <div class="resume-item">-->
+<!--                        <div class="resume-item-header">-->
+<!--                            <h5>IT Intern</h5>-->
+<!--                            <span>2020</span>-->
+<!--                        </div>-->
+<!--                        <div class="resume-item-subheader">-->
+<!--                            <span>Digital Solutions Ltd.</span>-->
+<!--                        </div>-->
+<!--                        <p>-->
+<!--                            Assisted in software development projects, provided technical support, and helped maintain company websites.-->
+<!--                        </p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+
+<!--            <div class="resume-download">-->
+<!--                <a href="#" download class="download-btn">Download Full Resume <i class="fa-solid fa-download"></i></a>-->
+<!--            </div>-->
+<!--        </section>
