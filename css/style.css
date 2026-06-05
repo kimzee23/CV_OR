@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: poppins;
+    font-family: 'Poppins', sans-serif;
 }
 a{
     text-decoration: none;
@@ -25,7 +25,6 @@ ul{
 body{
     color: var(--text-color);
     background-image: linear-gradient(120deg, var(--bg-gradient-start), var(--bg-gradient-end)) !important;
-    background-attachment: fixed;
 }
 .bg-gradient{
     background: linear-gradient(120deg, var(--gradient-start), var(--gradient-end)) !important;
@@ -186,6 +185,7 @@ header ul li a:hover{
     justify-content: center;
     align-items: center;
     grid-gap: 10px;
+    gap: 10px
 }
 .profile-social-container a{
     width: 48px;
@@ -196,6 +196,7 @@ header ul li a:hover{
     justify-content: center;
     align-items: center;
     margin-top: 15px;
+    gap: 10px;
     color: var(--text-color);
     transition: all ease 0.3s;
 }
@@ -439,6 +440,8 @@ header ul li a:hover{
     padding: 30px;
     background: #111;
     border-radius: 10px;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
     border: 1px solid var(--border-color);
 }
 
@@ -1269,6 +1272,12 @@ body.light-mode {
     --bg-gradient-start: #f0f2f5;
     --bg-gradient-end: #e0e3e7;
 }
+@supports (-webkit-touch-callout: none) {
+    body {
+        background-attachment: scroll; /* iOS Safari fix */
+    }
+}
+
 
 /* ===== Responsive Design ===== */
 @media (max-width: 992px) {
